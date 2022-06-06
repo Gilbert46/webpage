@@ -8,11 +8,11 @@ function surt() {
 }
 function enrerre(){
     if (control > 1) control -= 1;
-    else control = 33;
+    else control = 30;
     playgame(control);
 }
 function endavant(){
-    if (control < 33) control += 1;
+    if (control < 30) control += 1;
     else control = 1;
     playgame(control);
 }
@@ -90,23 +90,11 @@ function playgame(game) {
 
     if (game == 27) contanidor = window1 + butons + window2 + "https://gilbertvs.github.io/pacman2/" + window3;
 
-    if (game == 28) contanidor = window1 + butons + window2 + "https://gilbertvs.github.io/pacmannight/" + window3;
+    if (game == 31) contanidor = window1 + butons + window2 + "https://gilbertvs.github.io/threeball/" + window3;
 
     if (game == 29) contanidor = window1 + butons + window2 + "https://gilbertvs.github.io/domino/" + window3;
 
     if (game == 30) contanidor = window1 + butons + window2 + "https://gilbertvs.github.io/pingpong2/" + window3;
-
-    if (game == 31) contanidor = window1 + butons + window2 + "https://gilbertvs.github.io/threeball/" + window3;
-    
-
-    if (game == 32) contanidor = window1 + butons + window2 + "https://gilbertvs.github.io/asteroit/" + window3;
-
-
-    if (game == 33) contanidor = window1 + butons + window2 + "https://gilbertvs.github.io/pingpongT/" + window3;
-
-    if (game == 34) contanidor = window1 + butons + window2 + "https://gilbertvs.github.io/formulaOne/" + window3;  
-
-    if (game == 35) contanidor = window1 + butons + window2 + "https://simmer.io/@Equalitzator/mercenary" + window3;
 
     document.getElementById("gameNew").innerHTML = contanidor;
 
